@@ -1,5 +1,11 @@
 [
   {
+    "name": "! Create Custom App",
+    "image": "/assets/media/icons/custom.webp",
+    "categories": ["all"],
+    "custom": "true"
+  },
+  {
     "name": "1v1.LOL",
     "link": "https://1v1.lol/",
     "image": "/assets/imgs/g/1v1lol.png",
