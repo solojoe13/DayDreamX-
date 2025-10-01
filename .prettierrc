@@ -1,13 +1,9 @@
-{
-  "printWidth": 100,
-  "tabWidth": 2,
-  "useTabs": false,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "all",
-  "bracketSpacing": true,
-  "bracketSameLine": false,
-  "arrowParens": "always",
-  "endOfLine": "auto",
-  "embeddedLanguageFormatting": "auto"
-}
+node_modules/
+.gitiignore
+package-lock.json
+package.json
+README.md
+public/static/&/
+public/static/@/
+public/static/$/
+public/static/~/
