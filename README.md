@@ -29,12 +29,24 @@
 We recommend using the Bun package manager to install DayDreamX's dependencies. However, DayDreamX contains lock files for three major package managers: npm, pnpm, and bun.
 
 Please run the following commands to host a server:
-
+### Production:
 ```
 git clone https://github.com/NightProxy/DayDreamX.git
 cd DayDreamX
 npm i
-npm start
+npm run build
+node server.js
+```
+### Development:
+```
+git clone https://github.com/NightProxy/DayDreamX.git
+cd DayDreamX
+npm i
+npm run dev
+```
+### to start server
+```
+node server.js
 ```
 
 In the above example, replace `npm` with `bun` or `pnpm` for whichever package manager you wish to use.
