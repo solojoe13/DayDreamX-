@@ -6,6 +6,7 @@ if (navigator.userAgent.includes("Firefox")) {
 } // firefox fix
 
 importScripts(
+	"/$/scramjet.wasm.js",
 	"/$/scramjet.wasm.wasm",
 	"/$/scramjet.shared.js",
 	"/$/scramjet.worker.js"
