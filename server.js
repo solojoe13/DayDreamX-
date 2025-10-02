@@ -71,10 +71,10 @@ export default defineConfig(({ command }) => {
           useBare && { src: [normalizePath(resolve(bareModulePath, '*'))], dest: 'baremod' },
           {
             src: [
-              normalizePath(resolve(uvPath, 'uv.handler.js')),
-              normalizePath(resolve(uvPath, 'uv.client.js')),
-              normalizePath(resolve(uvPath, 'uv.bundle.js')),
-              normalizePath(resolve(uvPath, 'sw.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/uv.handler.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/uv.client.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/uv.bundle.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/sw.js')),
             ],
             dest: 'uv',
           },
@@ -110,8 +110,7 @@ export default defineConfig(({ command }) => {
       esbuild: { legalComments: 'none' },
       rollupOptions: {
         input: {
-          main: resolve(__dirname, 'index.html'),
-          loader: resolve(__dirname, 'src/static/loader.html'),
+          main: resolve(__dirname, 'public/index.html'),
         },
         output: {
           entryFileNames: '[hash].js',
