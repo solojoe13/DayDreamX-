@@ -12,6 +12,24 @@
     "categories": ["all", "popular", "multiplayer"]
   },
   {
+    "name": "Swordbattle.io",
+    "link": "https://swordbattle.io/",
+    "image": "/",
+    "categories": ["all", "2d"]
+  },
+  {
+    "name": "Stabfish.io",
+    "link": "https://stabfish.io/",
+    "image": "/",
+    "categories": ["all", "2P"]
+  },
+  {
+    "name": "Dynast.io",
+    "link": "https://dynast.io",
+    "image": "/",
+    "categories": ["all"]
+  },
+  {
     "name": "2048",
     "link": "https://www.2048.org/",
     "image": "/assets/imgs/g/2048.png",
