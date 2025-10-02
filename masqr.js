@@ -4,7 +4,7 @@ import fetch from "node-fetch"
 
 export const LICENSE_SERVER_URL = "http://localhost:8004/validate?license="
 export const whiteListedDomains = []
-export const failure = fs.readFileSync("Checkfailed.html", "utf8")
+export const failure = fs.readFileSync("public/pages/internal/Checkfailed/Checkfailed.html", "utf8")
 export const placeholder = fs.readFileSync("placeholder.svg", "utf8")
 
 export async function MasqFail(req, reply) {
