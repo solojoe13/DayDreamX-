@@ -71,7 +71,25 @@
     "image": "/assets/imgs/g/happywheels.png",
     "categories": ["all"]
   },
-    {
+  {
+    "name": "YoHoHo.io",
+    "link": "https://yohoho.io/",
+    "image": "/assets/imgs/g/yohoho.webp",
+    "categories": ["all", "2P"]
+  },
+  {
+    "name": "AntWar.io",
+    "link": "https://antwar.io/",
+    "image": "/assets/imgs/g//antwario.webp",
+    "categories": ["all", "2P"]
+  },
+  {
+    "name": "Tetr.io",
+    "link": "https://tetr.io/",
+    "image": "/assets/imgs/g/tetrio.webp",
+    "categories": ["all", "2P"]
+  },
+  {
     "name": "Piupiu Starship",
     "link": "https://interestingsomething.com/",
     "image": "/assets/imgs/g/PiupiuStarship.png",
