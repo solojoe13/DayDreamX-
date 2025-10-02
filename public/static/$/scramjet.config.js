@@ -4,7 +4,6 @@ self.__scramjet$config = {
   prefix: "/$/daydream/",
   files: {
       wasm: "/$/scramjet.wasm.wasm",
-      wasm: "/$/scramjet.wasm.js",
       worker: "/$/scramjet.all.js",
       client: "/$/scramjet.client.js",
       shared: "/$/scramjet.shared.js",
