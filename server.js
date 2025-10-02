@@ -110,7 +110,7 @@ export default defineConfig(({ command }) => {
       esbuild: { legalComments: 'none' },
       rollupOptions: {
         input: {
-          main: resolve(__dirname, 'public/index.html'),
+          main: resolve(__dirname, 'public/pages/index.html'),
         },
         output: {
           entryFileNames: '[hash].js',
