@@ -22,7 +22,7 @@ let bare;
 
 Object.assign(wisp.options, {
   dns_method: 'resolve',
-  dns_servers: ['1.1.1.3', '1.0.0.3', '1.1.1.1', '1.0.0.1],
+  dns_servers: ['1.1.1.3', '1.0.0.3', '1.1.1.1', '1.0.0.1', '1.1.1.2', '1.0.0.2'],
   dns_result_order: 'ipv4first',
 });
 
