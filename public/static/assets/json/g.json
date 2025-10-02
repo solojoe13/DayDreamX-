@@ -155,6 +155,11 @@
     "image": "/assets/imgs/g/paperio.png",
     "categories": ["all", "multiplayer", "popular"]
   },
+    {
+    "name": "ShipCraft.io",
+    "link": "https://shipcraft.io/",
+    "categories": ["all"]
+  },
   {
     "name": "Portal Flash",
     "link": "https://1kh0.github.io/projects/portalflash/index.html",
