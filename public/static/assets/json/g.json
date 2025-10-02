@@ -53,6 +53,12 @@
     "image": "/assets/imgs/g/happywheels.png",
     "categories": ["all"]
   },
+    {
+    "name": "Piupiu Starship",
+    "link": "https://interestingsomething.com/",
+    "image": "/assets/imgs/g/PiupiuStarship.png",
+    "categories": ["all"]
+  },
   {
     "name": "Basketball Random",
     "link": "https://basketrandomonline.github.io/g8/basket-random/",
